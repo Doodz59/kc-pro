@@ -1,0 +1,35 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Logo{
+    height: 150px;
+}
+.Navbar{
+    display: flex;  
+    align-items: center;
+}
+ol {
+    list-style-type: none; 
+    display: flex;
+  }
+ li {
+
+    margin: 0 10px;
+   
+  }
+  li a {
+    color: white; 
+    text-decoration: none; 
+    transition: color 0.5s ease; 
+    padding: 10px; /* ajouter un padding pour chaque lien */
+    border-radius: 10px; /* ajouter des bords arrondis */
+    background: #102337; /* ajouter un fond pour chaque lien */
+    box-shadow: 2px 2px 5px #00d8ec; /* ajouter une ombre pour chaque lien */
+  }
+  li a:hover {
+    color: #00d8ec; 
+    transform: scale(1.1);
+  }
